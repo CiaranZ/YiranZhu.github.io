@@ -28,13 +28,17 @@ My research interests include:
 
 
 # 🔥 News
-- Mar 2026: Our work on dynamic prognostic prediction was accepted to **ICME 2026**.
+- Apr 2026: The full preprint of *IntraDiag* is in preparation.
+- Mar 2026: Our work on dynamic prognostic prediction was accepted to **ICME 2026**, and the camera-ready version is in preparation.
 - Mar 2026: Released *DuoTeach: Dual Role Self-Teaching for Coarse-to-Fine Decision Coordination in Vision–Language Models* on arXiv.
 - Mar 2026: Released *Refold: Refining Protein Inverse Folding with Efficient Structural Matching and Fusion* on arXiv.
 - Jun 2025: Joined the AIMS Lab, The Hong Kong University of Science and Technology (Guangzhou) as a visiting student, advised by [Prof. Jun Xia](https://junxia97.github.io/).
 
 
 # 📝 Publications
+
+- **IntraDiag: Learning Intrinsic Diagnostic Procedure Capability for Multi-Step Diagnostic Reasoning**  
+  Full preprint in preparation.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/images/DuoTeach.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -63,12 +67,11 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2026</div><img src='/images/ICME26.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Dynamic Prognostic Prediction Method for Colorectal Cancer Liver Metastasis](https://arxiv.org/abs/2505.03123)
+**A Dynamic Prognostic Prediction Method for Colorectal Cancer Liver Metastasis**
 
 Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Yan Su, Zesheng Li, Chengchang Pan, Honggang Qi
 
-[**Paper**](https://arxiv.org/abs/2505.03123)
-- ICME 2026. <sup>*</sup> Equal contribution.
+- ICME 2026. Camera-ready version is in preparation. <sup>*</sup> Equal contribution.
 </div>
 </div>
 
