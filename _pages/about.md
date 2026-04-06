@@ -102,5 +102,5 @@ Jie Qin, Wei Yang, Yan Su, **Yiran Zhu**, Weizhen Li, Yunyue Pan, Chengchang Pan
 - [Prof. Jun Xia](https://junxia97.github.io/), The Hong Kong University of Science and Technology (Guangzhou).
 - [Prof. Honggang Qi](https://people.ucas.edu.cn/~hgqi), University of Chinese Academy of Sciences (UCAS).
 - [Prof. Hongtao Wang](https://cs.ncepu.edu.cn/szzk/yjsds/zsjsyrgznaqyjz/66f6bfb94b4d4a448388772bf045f361.htm), North China Electric Power University (Baoding).
-- [Wei Yang](https://miemie0922.github.io/weiyang.github.io/), frequent collaborator on multiple research projects.
+- [Wei Yang](https://weiyang209.github.io/), frequent collaborator on multiple research projects.
 - [Dr. Huichi Zhou](https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en), who provided important early guidance in my research journey.
