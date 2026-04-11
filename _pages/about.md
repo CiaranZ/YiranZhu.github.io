@@ -71,7 +71,8 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 
 Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Yan Su, Zesheng Li, Chengchang Pan, Honggang Qi
 
-- ICME 2026. Camera-ready version is in preparation. <sup>*</sup> Equal contribution.
+[**Paper**](https://arxiv.org/abs/2505.03123)
+- ICME 2026. <sup>*</sup> Equal contribution.
 </div>
 </div>
 
