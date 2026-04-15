@@ -42,7 +42,7 @@ My research interests include:
 
 IntraDiag: Learning Intrinsic Diagnostic Procedure Capability for Multi-Step Diagnostic Reasoning
 
-Yiran zhu, Wei Yang, Hanning Zhang, Zilin Li, Ziyang Guo
+**Yiran Zhu**, Wei Yang, Hanning Zhang, Zilin Li, Ziyang Guo
 
 - Full preprint in preparation. First author.
 </div>
