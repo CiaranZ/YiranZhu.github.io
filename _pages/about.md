@@ -37,10 +37,18 @@ My research interests include:
 
 # 📝 Publications
 
-- **IntraDiag: Learning Intrinsic Diagnostic Procedure Capability for Multi-Step Diagnostic Reasoning**  
-  Full preprint in preparation.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='/images/IntraDiag.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/images/DuoTeach.png' alt="paper" width="100%"></div></div>
+IntraDiag: Learning Intrinsic Diagnostic Procedure Capability for Multi-Step Diagnostic Reasoning
+
+Yiran zhu, Wei Yang, Hanning Zhang, Zilin Li, Ziyang Guo
+
+- Full preprint in preparation. First author.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='/images/DuoTeach.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DuoTeach: Dual Role Self-Teaching for Coarse-to-Fine Decision Coordination in Vision–Language Models](https://arxiv.org/abs/2511.18415)
@@ -52,7 +60,7 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='/images/Refold.png' alt="paper" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='/images/Refold.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Refold: Refining Protein Inverse Folding with Efficient Structural Matching and Fusion](https://arxiv.org/abs/2603.14350)
