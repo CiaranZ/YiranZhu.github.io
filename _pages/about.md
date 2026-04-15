@@ -80,7 +80,7 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Yan Su, Zesheng Li, Chengchang Pan, Honggang Qi
 
 [**Paper**](https://arxiv.org/abs/2505.03123)
-- ICME 2026. <sup>*</sup> Equal contribution.
+- **ICME 2026 (CCF-B)**. <sup>*</sup> Equal contribution.
 </div>
 </div>
 
@@ -92,7 +92,7 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Yan Su, Zesheng Li, Chengchang 
 Jie Qin, Wei Yang, Yan Su, **Yiran Zhu**, Weizhen Li, Yunyue Pan, Chengchang Pan, Honggang Qi
 
 [**Paper**](https://dl.acm.org/doi/10.1145/3746027.3755619)
-- ACM Multimedia 2025. Fourth author.
+- **ACM Multimedia 2025 (CCF-A)**. Fourth author.
 </div>
 </div>
 
