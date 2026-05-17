@@ -28,13 +28,11 @@ My research interests include:
 
 
 # 🔥 News
-- May 2026: *Refold* was accepted to **KDD 2026 AI4S Track**.
-- Apr 2026: The full preprint of *IntraDiag* is in preparation.
-- Mar 2026: Our work on dynamic prognostic prediction was accepted to **ICME 2026**, and the camera-ready version is in preparation.
-- Mar 2026: Released *DuoTeach: Dual Role Self-Teaching for Coarse-to-Fine Decision Coordination in Vision–Language Models* on arXiv.
-- Mar 2026: Released *Refold: Refining Protein Inverse Folding with Efficient Structural Matching and Fusion* on arXiv.
+- May 2026: *Refold: Refining Protein Inverse Folding with Efficient Structural Matching and Fusion* was accepted to **KDD 2026**.
+- Mar 2026: *A Dynamic Prognostic Prediction Method for Colorectal Cancer Liver Metastasis* was accepted to **ICME 2026**.
+- Jul 2025: *HER2 Expression Prediction with Flexible Multi-Modal Inputs via Dynamic Bidirectional Reconstruction* was accepted to **ACM MM 2025**.
 - Jun 2025: Joined the AIMS Lab, The Hong Kong University of Science and Technology (Guangzhou) as a visiting student, advised by [Prof. Jun Xia](https://junxia97.github.io/).
-
+- Oct 2024: Joined the AAAI Lab, University of Chinese Academy of Sciences (UCAS) as a research intern, advised by [Prof. Honggang Qi](https://people.ucas.edu.cn/~hgqi).
 
 # 📝 Publications
 
@@ -56,7 +54,6 @@ IntraDiag: Learning Intrinsic Diagnostic Procedure Capability for Multi-Step Dia
 
 Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia, Hongtao Wang
 
-[**Paper**](https://arxiv.org/abs/2511.18415)
 - arXiv preprint. <sup>*</sup> Equal contribution.
 </div>
 </div>
@@ -68,7 +65,6 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 
 **Yiran Zhu**, Changxi Chi, Hongxin Xiang, Wenjie Du, Xiaoqi Wang, Jun Xia
 
-[**Paper**](https://arxiv.org/abs/2603.14350)
 - **KDD 2026 (CCF-A)**. First author.
 </div>
 </div>
@@ -76,11 +72,10 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2026</div><img src='/images/ICME26.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**A Dynamic Prognostic Prediction Method for Colorectal Cancer Liver Metastasis**
+[**A Dynamic Prognostic Prediction Method for Colorectal Cancer Liver Metastasis**]((https://arxiv.org/abs/2505.03123))
 
 Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Yan Su, Zesheng Li, Chengchang Pan, Honggang Qi
 
-[**Paper**](https://arxiv.org/abs/2505.03123)
 - **ICME 2026 (CCF-B)**. <sup>*</sup> Equal contribution.
 </div>
 </div>
@@ -92,7 +87,6 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Yan Su, Zesheng Li, Chengchang 
 
 Jie Qin, Wei Yang, Yan Su, **Yiran Zhu**, Weizhen Li, Yunyue Pan, Chengchang Pan, Honggang Qi
 
-[**Paper**](https://dl.acm.org/doi/10.1145/3746027.3755619)
 - **ACM Multimedia 2025 (CCF-A)**. Fourth author.
 </div>
 </div>
