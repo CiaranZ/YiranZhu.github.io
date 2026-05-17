@@ -28,6 +28,7 @@ My research interests include:
 
 
 # 🔥 News
+- May 2026: *Refold* was accepted to **KDD 2026 AI4S Track**.
 - Apr 2026: The full preprint of *IntraDiag* is in preparation.
 - Mar 2026: Our work on dynamic prognostic prediction was accepted to **ICME 2026**, and the camera-ready version is in preparation.
 - Mar 2026: Released *DuoTeach: Dual Role Self-Teaching for Coarse-to-Fine Decision Coordination in Vision–Language Models* on arXiv.
@@ -60,7 +61,7 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='/images/Refold.png' alt="paper" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='/images/Refold.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Refold: Refining Protein Inverse Folding with Efficient Structural Matching and Fusion](https://arxiv.org/abs/2603.14350)
@@ -68,7 +69,7 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 **Yiran Zhu**, Changxi Chi, Hongxin Xiang, Wenjie Du, Xiaoqi Wang, Jun Xia
 
 [**Paper**](https://arxiv.org/abs/2603.14350)
-- arXiv preprint. First author.
+- **KDD 2026 (CCF-A)**. First author.
 </div>
 </div>
 
