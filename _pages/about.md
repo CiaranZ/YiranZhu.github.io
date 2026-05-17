@@ -54,7 +54,7 @@ IntraDiag: Learning Intrinsic Diagnostic Procedure Capability for Multi-Step Dia
 
 Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia, Hongtao Wang
 
-- arXiv preprint. <sup>*</sup> Equal contribution.
+- arXiv preprint. <sup>*</sup> Co‑first author.
 </div>
 </div>
 
@@ -76,7 +76,7 @@ Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Zilin Li, Xunjia Zhang, Jun Xia
 
 Wei Yang<sup>*</sup>, **Yiran Zhu**<sup>*</sup>, Yan Su, Zesheng Li, Chengchang Pan, Honggang Qi
 
-- **ICME 2026 (CCF-B)**. <sup>*</sup> Equal contribution.
+- **ICME 2026 (CCF-B)**. <sup>*</sup> Co‑first author.
 </div>
 </div>
 
