@@ -101,7 +101,15 @@ Jie Qin, Wei Yang, Yan Su, **Yiran Zhu**, Weizhen Li, Yunyue Pan, Chengchang Pan
 # 📖 Education
 - *2023.09 - 2027.06 (expected)*, B.Eng. in Intelligent Science and Technology, North China Electric Power University (Baoding), China.
 
-# Contact / 联系我
+# 🤝 Selected Mentors and Collaborators
+<span class='anchor' id='selected-mentors-and-collaborators'></span>
+- [Prof. Jun Xia](https://junxia97.github.io/), The Hong Kong University of Science and Technology (Guangzhou).
+- [Prof. Honggang Qi](https://people.ucas.edu.cn/~hgqi), University of Chinese Academy of Sciences (UCAS).
+- [Prof. Hongtao Wang](https://cs.ncepu.edu.cn/szzk/yjsds/zsjsyrgznaqyjz/66f6bfb94b4d4a448388772bf045f361.htm), North China Electric Power University (Baoding).
+- [Wei Yang](https://weiyang209.github.io/), frequent collaborator on multiple research projects.
+- [Dr. Huichi Zhou](https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en), who provided important early guidance in my research journey.
+
+# 📧 Contact
 <span class='anchor' id='contact'></span>
 
 If you'd like to discuss research, collaboration, or opportunities, feel free to reach out by email.
@@ -151,11 +159,3 @@ If you'd like to discuss research, collaboration, or opportunities, feel free to
     }, { once: true });
   });
 </script>
-
-# 🤝 Selected Mentors and Collaborators
-<span class='anchor' id='selected-mentors-and-collaborators'></span>
-- [Prof. Jun Xia](https://junxia97.github.io/), The Hong Kong University of Science and Technology (Guangzhou).
-- [Prof. Honggang Qi](https://people.ucas.edu.cn/~hgqi), University of Chinese Academy of Sciences (UCAS).
-- [Prof. Hongtao Wang](https://cs.ncepu.edu.cn/szzk/yjsds/zsjsyrgznaqyjz/66f6bfb94b4d4a448388772bf045f361.htm), North China Electric Power University (Baoding).
-- [Wei Yang](https://weiyang209.github.io/), frequent collaborator on multiple research projects.
-- [Dr. Huichi Zhou](https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en), who provided important early guidance in my research journey.

@@ -15,8 +15,8 @@ main:
   - title: "Education"
     url: "/#-education"
 
-  - title: "Contact"
-    url: "/#contact"
-
   - title: "Selected Mentors and Collaborators"
     url: "/#-selected-mentors-and-collaborators"
+    
+  - title: "Contact"
+    url: "/#contact"
