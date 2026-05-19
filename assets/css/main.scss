@@ -107,3 +107,31 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.contact-email {
+    margin: 1.25rem 0 2rem;
+}
+
+.contact-email__container {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-left: 0.75rem;
+}
+
+.contact-email__link {
+    font-weight: 600;
+}
+
+.contact-email__copy {
+    margin-bottom: 0;
+}
+
+@include breakpoint(max-width $small) {
+    .contact-email__container {
+        display: flex;
+        margin-top: 0.75rem;
+        margin-left: 0;
+    }
+}

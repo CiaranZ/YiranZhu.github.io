@@ -101,6 +101,57 @@ Jie Qin, Wei Yang, Yan Su, **Yiran Zhu**, Weizhen Li, Yunyue Pan, Chengchang Pan
 # 📖 Education
 - *2023.09 - 2027.06 (expected)*, B.Eng. in Intelligent Science and Technology, North China Electric Power University (Baoding), China.
 
+# Contact / 联系我
+<span class='anchor' id='contact'></span>
+
+If you'd like to discuss research, collaboration, or opportunities, feel free to reach out by email.
+
+<div class="contact-email">
+  <button id="show-email" class="btn btn--inverse btn--small" type="button">Show Email / 显示邮箱</button>
+  <span id="email-container" class="contact-email__container" aria-live="polite"></span>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const showButton = document.getElementById("show-email");
+    const emailContainer = document.getElementById("email-container");
+
+    if (!showButton || !emailContainer) {
+      return;
+    }
+
+    showButton.addEventListener("click", function () {
+      const user = "Ciaran_study";
+      const domain = "yeah.net";
+      const email = user + "@" + domain;
+
+      const link = document.createElement("a");
+      link.href = "mailto:" + email;
+      link.textContent = email;
+      link.className = "contact-email__link";
+
+      const copyButton = document.createElement("button");
+      copyButton.type = "button";
+      copyButton.className = "btn btn--inverse btn--small contact-email__copy";
+      copyButton.textContent = "Copy";
+
+      copyButton.addEventListener("click", async function () {
+        try {
+          await navigator.clipboard.writeText(email);
+          copyButton.textContent = "Copied";
+        } catch (error) {
+          copyButton.textContent = "Copy Failed";
+        }
+      });
+
+      emailContainer.innerHTML = "";
+      emailContainer.appendChild(link);
+      emailContainer.appendChild(copyButton);
+      showButton.style.display = "none";
+    }, { once: true });
+  });
+</script>
+
 # 🤝 Selected Mentors and Collaborators
 <span class='anchor' id='selected-mentors-and-collaborators'></span>
 - [Prof. Jun Xia](https://junxia97.github.io/), The Hong Kong University of Science and Technology (Guangzhou).
