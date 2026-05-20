@@ -128,10 +128,55 @@ h1:before, .anchor:before {
     margin-bottom: 0;
 }
 
+.contact-message {
+    max-width: 34rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.contact-message__title {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.05em;
+}
+
+.contact-message-form {
+    label {
+        display: block;
+        margin-bottom: 0.85rem;
+        font-weight: 600;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 0.3rem;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    button {
+        margin-top: 0.25rem;
+        margin-bottom: 0;
+    }
+}
+
+.optional-text {
+    color: #7a7a7a;
+    font-size: 0.85em;
+    font-weight: 400;
+}
+
 @include breakpoint(max-width $small) {
     .contact-email__container {
         display: flex;
         margin-top: 0.75rem;
         margin-left: 0;
+    }
+
+    .contact-message {
+        max-width: 100%;
     }
 }

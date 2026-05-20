@@ -115,14 +115,54 @@ Jie Qin, Wei Yang, Yan Su, **Yiran Zhu**, Weizhen Li, Yunyue Pan, Chengchang Pan
 If you'd like to discuss research, collaboration, or opportunities, feel free to reach out by email.
 
 <div class="contact-email">
-  <button id="show-email" class="btn btn--inverse btn--small" type="button">Show Email / 显示邮箱</button>
+  <button id="show-email" class="btn btn--inverse btn--small" type="button">Show Email</button>
   <span id="email-container" class="contact-email__container" aria-live="polite"></span>
+</div>
+
+<div class="contact-message">
+  <h2 class="contact-message__title">Leave a Message</h2>
+  <form
+    id="contact-message-form"
+    class="contact-message-form"
+    action="https://formspree.io/f/mkoejrzz"
+    method="POST"
+  >
+    <label for="contact-message-name">
+      Name
+      <input id="contact-message-name" type="text" name="name" value="Anonymous">
+    </label>
+
+    <label for="contact-message-email">
+      Email <span class="optional-text">(optional)</span>
+      <input id="contact-message-email" type="email" name="email" placeholder="your@email.com (optional)">
+    </label>
+
+    <label for="contact-message-body">
+      Message
+      <textarea id="contact-message-body" name="message" rows="5" required></textarea>
+    </label>
+
+    <input type="hidden" name="_subject" value="New message from personal homepage">
+
+    <button class="btn btn--inverse" type="submit">Send Message</button>
+  </form>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const showButton = document.getElementById("show-email");
     const emailContainer = document.getElementById("email-container");
+    const messageForm = document.getElementById("contact-message-form");
+
+    if (messageForm) {
+      messageForm.addEventListener("submit", function () {
+        const nameInput = messageForm.querySelector('input[name="name"]');
+
+        if (nameInput && !nameInput.value.trim()) {
+          nameInput.value = "Anonymous";
+        }
+      });
+    }
 
     if (!showButton || !emailContainer) {
       return;
