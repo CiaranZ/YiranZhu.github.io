@@ -119,7 +119,11 @@ If you'd like to discuss research, collaboration, or opportunities, feel free to
   <span id="email-container" class="contact-email__container" aria-live="polite"></span>
 </div>
 
-<div class="contact-message">
+<div class="contact-message-toggle">
+  <button id="show-message-form" class="btn btn--inverse btn--small" type="button" aria-controls="contact-message-panel" aria-expanded="false">Leave a Message</button>
+</div>
+
+<div id="contact-message-panel" class="contact-message" hidden>
   <h2 class="contact-message__title">Leave a Message</h2>
   <form
     id="contact-message-form"
@@ -152,7 +156,17 @@ If you'd like to discuss research, collaboration, or opportunities, feel free to
   document.addEventListener("DOMContentLoaded", function () {
     const showButton = document.getElementById("show-email");
     const emailContainer = document.getElementById("email-container");
+    const showMessageButton = document.getElementById("show-message-form");
+    const messagePanel = document.getElementById("contact-message-panel");
     const messageForm = document.getElementById("contact-message-form");
+
+    if (showMessageButton && messagePanel) {
+      showMessageButton.addEventListener("click", function () {
+        messagePanel.hidden = false;
+        showMessageButton.setAttribute("aria-expanded", "true");
+        showMessageButton.style.display = "none";
+      }, { once: true });
+    }
 
     if (messageForm) {
       messageForm.addEventListener("submit", function () {

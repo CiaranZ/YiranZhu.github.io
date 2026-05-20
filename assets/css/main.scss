@@ -109,7 +109,7 @@ h1:before, .anchor:before {
 }
 
 .contact-email {
-    margin: 1.25rem 0 2rem;
+    margin: 1.25rem 0 0.75rem;
 }
 
 .contact-email__container {
@@ -126,6 +126,10 @@ h1:before, .anchor:before {
 
 .contact-email__copy {
     margin-bottom: 0;
+}
+
+.contact-message-toggle {
+    margin: 0 0 1.5rem;
 }
 
 .contact-message {
