@@ -36,17 +36,6 @@ My research interests include:
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='/images/IntraDiag.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-IntraDiag: Learning Intrinsic Diagnostic Procedure Capability for Multi-Step Diagnostic Reasoning
-
-**Yiran Zhu**, Wei Yang, Hanning Zhang, Zilin Li, Ziyang Guo
-
-- Full preprint in preparation. First author.
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='/images/DuoTeach.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
