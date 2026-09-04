@@ -1,0 +1,39 @@
+- id: hongtao-wang
+  name: Hongtao Wang
+  affiliation: North China Electric Power University
+  description: >-
+    Prof. Wang is my undergraduate advisor. He has given me tremendous support and freedom in learning, exploring research directions, and pursuing the questions that genuinely interest me.
+
+- id: huichi-zhou
+  name: Huichi Zhou
+  link: https://huichizhou.github.io/
+  affiliation: University College London
+  description: >-
+    Huichi led me through my earliest stages of learning research. Over the years, he has been not only a mentor in research, but also a mentor in life and a close friend.
+
+- id: jun-xia
+  name: Jun Xia
+  affiliation: HKUST (Guangzhou)
+  description: >-
+    Jun was my advisor at HKUST (Guangzhou), where we worked together on AI for Science and multimodal reasoning. Under his guidance, I gradually learned how to independently develop and carry a research project from an initial idea through experiments and writing.
+
+- id: qi-lu
+  name: Qi Lu
+  link: https://thinkwave.cn/
+  affiliation: Huazhong University of Science and Technology
+  description: >-
+    Qi is a research collaborator and close friend. We have had a rather unexpected and memorable journey of working together, and continue to exchange new ideas and explore interesting questions through our ongoing discussions.
+
+- id: wei-yang
+  name: Wei Yang
+  link: https://weiyang209.github.io/
+  affiliation: North China Electric Power University
+  description: >-
+    Wei is my closest collaborator and my life partner. We have shared a winding but deeply rewarding research journey, working through setbacks, discoveries, and many of the moments in between together.
+
+- id: zilin-li
+  name: Zilin Li
+  link: https://lixeeone.github.io/
+  affiliation: Donghua University
+  description: >-
+    Zilin has been one of my closest friends since high school, as well as a long-term collaborator and discussion partner. Many ideas, research-related or otherwise, have grown out of our conversations over the years.

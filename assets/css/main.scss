@@ -40,6 +40,319 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+strong,
+b {
+    color: $dark-gray;
+}
+
+/* Compact academic timeline used only by the Experience section. */
+.experience-timeline {
+    margin: 0.35em 0 1.5em;
+}
+
+.experience-timeline .timeline-heading {
+    margin: 1.15em 0 0.6em;
+    font-size: 1.25em;
+}
+
+.experience-timeline .timeline-list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &:before {
+        position: absolute;
+        top: 1.8rem;
+        bottom: 1.8rem;
+        left: 3.625rem;
+        width: 1px;
+        background: #d9dde1;
+        content: "";
+    }
+}
+
+.experience-timeline .timeline-list--single:before {
+    display: none;
+}
+
+.experience-timeline .timeline-entry {
+    display: grid;
+    grid-template-columns: 3rem 1.25rem minmax(0, 1fr);
+    min-height: 5.9rem;
+}
+
+.experience-timeline .timeline-logo {
+    align-self: start;
+    width: 2.625rem;
+    height: 2.625rem;
+    margin-top: 0.7rem;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transform-origin: center;
+    }
+}
+
+.experience-timeline .timeline-logo--round img {
+    transform: scale(0.92);
+}
+
+.experience-timeline .timeline-logo--tall img,
+.experience-timeline .timeline-logo--wordmark img {
+    transform: scale(1.08);
+}
+
+.experience-timeline .timeline-marker {
+    z-index: 1;
+    align-self: start;
+    justify-self: center;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 1.05rem;
+    box-sizing: border-box;
+    border: 1px solid #777b80;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.experience-timeline .timeline-entry--current .timeline-marker {
+    border-color: #2f3133;
+    background: #2f3133;
+}
+
+.experience-timeline .timeline-entry__body {
+    min-width: 0;
+    padding: 0.5rem 0 1.1rem;
+}
+
+.experience-timeline .timeline-entry__header h3 {
+    margin: 0;
+    font-size: 1.05em;
+    line-height: 1.28;
+}
+
+.experience-timeline .timeline-entry time,
+.experience-timeline .timeline-entry p {
+    color: #777b80;
+    font-family: $sans-serif;
+}
+
+.experience-timeline .timeline-entry time {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.86em;
+    line-height: 1.35;
+}
+
+.experience-timeline .timeline-entry p {
+    margin: 0.28rem 0 0;
+    font-size: 0.96em;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.experience-timeline .timeline-section--education {
+    margin-top: 0.9rem;
+}
+
+/* Compact people index used only by the Acknowledgements section. */
+.acknowledgement-index {
+    margin: 1.1em 0 1.6em;
+}
+
+.acknowledgement-index__note {
+    margin: 0 0 0.45rem;
+    color: $gray;
+    font-size: 0.78em;
+    font-style: italic;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.acknowledgement-index__people {
+    display: flex;
+    gap: 0.15rem;
+    overflow-x: auto;
+    margin: 0 -0.5rem;
+    padding: 0 0.5rem 0.3rem;
+    border-bottom: 1px solid #d9dde1;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.acknowledgement-index__person {
+    position: relative;
+    flex: 0 0 auto;
+    min-height: 2.6rem;
+    padding: 0.55rem 0.7rem;
+    border: 0;
+    background: transparent;
+    color: $gray;
+    font-size: $type-size-6;
+    line-height: 1.35;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: $dark-gray;
+    }
+
+    &:focus {
+        outline: 1px solid $gray;
+        outline-offset: -2px;
+    }
+
+    &[aria-selected="true"] {
+        color: $dark-gray;
+        font-weight: bold;
+    }
+
+    &[aria-selected="true"]:after {
+        position: absolute;
+        right: 0.7rem;
+        bottom: -1px;
+        left: 0.7rem;
+        height: 2px;
+        background: $dark-gray;
+        content: "";
+    }
+}
+
+.acknowledgement-index__detail {
+    min-height: 12.5rem;
+    padding: 1.05rem 0 0;
+}
+
+.acknowledgement-index__panel {
+    max-width: 39rem;
+}
+
+.acknowledgement-index__panel[hidden] {
+    display: none !important;
+}
+
+.acknowledgement-index__name {
+    margin: 0;
+    font-size: $type-size-4;
+}
+
+.acknowledgement-index__affiliation {
+    margin: 0.15rem 0 0;
+    color: $gray;
+    font-size: $type-size-6;
+}
+
+.acknowledgement-index__description {
+    margin: 0.8rem 0 0;
+    line-height: 1.6;
+}
+
+.acknowledgement-index__fallback {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #d9dde1;
+}
+
+@include breakpoint($medium) {
+    .acknowledgement-index {
+        display: grid;
+        grid-template-columns: minmax(10.5rem, 0.38fr) minmax(0, 1fr);
+        grid-template-areas:
+            "people detail"
+            "note detail";
+        gap: 1.6rem;
+        align-items: stretch;
+    }
+
+    .acknowledgement-index__note {
+        grid-area: note;
+        margin: -1.15rem 0 0;
+        text-align: left;
+    }
+
+    .acknowledgement-index__people {
+        grid-area: people;
+        display: block;
+        overflow: visible;
+        margin: 0;
+        padding: 0 1.15rem 0 0;
+        border-right: 1px solid #d9dde1;
+        border-bottom: 0;
+    }
+
+    .acknowledgement-index__person {
+        display: block;
+        width: 100%;
+        min-height: 0;
+        padding: 0.4rem 0 0.4rem 0.9rem;
+
+        &[aria-selected="true"]:after {
+            top: 50%;
+            right: auto;
+            bottom: auto;
+            left: 0;
+            width: 0.42rem;
+            height: 1px;
+        }
+    }
+
+    .acknowledgement-index__detail {
+        grid-area: detail;
+        min-height: 13.25rem;
+        padding: 0.15rem 0 0;
+    }
+}
+
+@include breakpoint($medium) {
+    .experience-timeline .timeline-list:before {
+        left: 5.45rem;
+    }
+
+    .experience-timeline .timeline-entry {
+        grid-template-columns: 4.6rem 1.7rem minmax(0, 1fr);
+        min-height: 6.05rem;
+    }
+
+    .experience-timeline .timeline-logo {
+        width: 3.35rem;
+        height: 3.35rem;
+        margin-top: 0.65rem;
+    }
+
+    .experience-timeline .timeline-marker {
+        margin-top: 1.15rem;
+    }
+
+    .experience-timeline .timeline-entry__body {
+        padding-top: 0.65rem;
+    }
+
+    .experience-timeline .timeline-entry__header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+
+    .experience-timeline .timeline-entry__header h3 {
+        font-size: 1.15em;
+    }
+
+    .experience-timeline .timeline-entry time {
+        flex: 0 0 auto;
+        margin-top: 0;
+        white-space: nowrap;
+    }
+}
+
 .paper-box {
     display: flex;
     justify-content: left;

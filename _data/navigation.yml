@@ -1,22 +1,19 @@
 # main links links
 main:
-  - title: "About Me"
+  - title: "About"
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Selected Research"
+    url: "/#selected-research"
 
-  - title: "Research Experience"
-    url: "/#-research-experience"
+  - title: "Experience"
+    url: "/#experience"
 
-  - title: "Education"
-    url: "/#-education"
-
-  - title: "Selected Mentors and Collaborators"
-    url: "/#-selected-mentors-and-collaborators"
+  - title: "Acknowledgements"
+    url: "/#acknowledgements"
     
   - title: "Contact"
     url: "/#contact"
